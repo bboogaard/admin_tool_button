@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
-from admin_tool_button.version import Version
 
 
 setup(name='admin_tool_button',
-     version=Version('1.0.0').number,
+     version='1.0.1-alpha',
      description='Extra tool buttons for Django admin',
      long_description=open('README.md').read().strip(),
+     long_description_content_type="text/markdown",
      author='Bram Boogaard',
      author_email='padawan@hetnet.nl',
      url='https://github.com/bboogaard/admin_tool_button',
@@ -18,5 +18,5 @@ setup(name='admin_tool_button',
      ],
      license='MIT License',
      zip_safe=False,
-     keywords='Auth0 SSO',
-     classifiers=['Packages', 'Auth0 SSO'])
+     keywords='Django Admin',
+     classifiers=['Development Status :: 3 - Alpha'])
