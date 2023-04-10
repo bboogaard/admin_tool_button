@@ -9,7 +9,7 @@ setup(name='admin_tool_button',
      author='Bram Boogaard',
      author_email='padawan@hetnet.nl',
      url='https://github.com/bboogaard/admin_tool_button',
-     packages=find_packages(include=['admin_tool_button']),
+     packages=find_packages(include=['admin_tool_button', 'admin_tool_button.contrib']),
      install_requires=[
          'pytest',
          'pytest-cov',
