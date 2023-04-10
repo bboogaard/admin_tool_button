@@ -1,8 +1,9 @@
 from setuptools import setup, find_packages
+from admin_tool_button.version import Version
 
 
 setup(name='admin_tool_button',
-     version='1.0.1-alpha',
+     version=Version('1.0.2-alpha').number,
      description='Extra tool buttons for Django admin',
      long_description=open('README.md').read().strip(),
      long_description_content_type="text/markdown",

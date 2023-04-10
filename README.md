@@ -15,7 +15,7 @@ Supports Django Versions: 3.2.
 ## Installation
 
 ```shell
-$ pip install https://github.com/bboogaard/admin_tool_button/archive/refs/heads/main.zip
+$ pip install admin_tool_button
 ```
 
 ## Usage
